@@ -1,0 +1,58 @@
+.Carousal02-Container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Carousal02{
+    width: 100%;
+}
+.Carousal02-Slides {
+    width: 80%;
+    margin-left: 1rem;
+}
+.Carousal02-Slides img{
+    width: 100%;
+}
+.Carousal02-Header{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Carousal02 .react-multiple-carousel__arrow--left {
+    left: calc(4% + -60px);
+}
+.Carousal02 .react-multiple-carousel__arrow{
+    border-radius: 5px;
+    min-width: 45px;
+    min-height: 80px;
+    background-color: #FFB70A;
+}
+.Carousal02 .react-multiple-carousel__arrow--right{
+    right: calc(4% + -28px);
+  }
+  .Carousal02-Header span{
+      width: 40%;
+      height: 8px;
+      background-color: #FFB70A;
+      margin-bottom: 2rem;
+  }
+  .Carousal02-Header h1{
+      margin: 0%;
+  }
+   .Carousal02-Header h2{
+    margin: 0%;
+  }
+  @media only screen and (max-width: 450px){
+    .Carousal02-Container{
+        width: 95%;
+    }
+    .Carousal02-Header h1{
+        font-size: 1.3rem;
+    }
+    .Carousal02-Header h2{
+        font-size: 0.9rem;
+        text-align: left;
+    }
+  }

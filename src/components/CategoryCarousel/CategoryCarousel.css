@@ -1,0 +1,163 @@
+.CategoryCarousel-Container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.CategoryCarousel-Box {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CategoryCarousel-Tabs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.CategoryCarousel-Tab-Mobile-View {
+  display: none;
+}
+.Carousel-Tab {
+  width: 90%;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 0px 0px 14px 14px;
+}
+.Tab-Slides {
+  width: 80%;
+  margin-right: 0%;
+}
+.Tab-Slides img {
+  width: 100%;
+}
+
+.CategoryCarousel-Tab {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+.Tab {
+  width: 15%;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #f9751b;
+  font-size: 1rem;
+  border-radius: 14px 14px 0px 0px;
+  color: white;
+}
+.Active {
+  width: 15%;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  border-radius: 14px 14px 0px 0px;
+  font-size: 1rem;
+}
+.Empty {
+  width: 100%;
+  background-color: #f5f5f500;
+  border: none;
+}
+/* .Category-DropDown{
+  display: none;
+} */
+@media only screen and (max-width: 450px) {
+  .CategoryCarousel-Tabs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .CategoryCarousel-Tab {
+    display: none;
+  }
+  .CategoryCarousel-Tab-Mobile-View {
+    width: 60%;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    overflow-y: scroll;
+  }
+  .Active {
+    width: 100%;
+    min-width: max-content;
+    border-radius: 10px;
+    padding: 0.7rem;
+    background-color: #f5f5f500;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+  }
+  .Active:hover {
+    background-color: #f9751b;
+    color: white;
+  }
+  .Tab {
+    width: 100%;
+    min-width: max-content;
+    border-radius: 10px;
+    padding: 0.7rem;
+    background-color: #f5f5f500;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+  }
+  .Tab:hover {
+    background-color: #f9751b;
+    color: white;
+  }
+  .CategoryCarousel-Container {
+    width: 100%;
+  }
+  .Carousel-Tab {
+    width: 90%;
+  }
+  .Empty {
+    display: block;
+  }
+  .Category-DropDown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Drop-Down-button {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 10px;
+    background-color: #f9751b;
+    padding: 0.6rem;
+    color: white;
+  }
+  .Category-DropDown-Close {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .Category-DropDown-CloseButton {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #f5f5f500;
+    border: none;
+  }
+  .Carousel-Tab .react-multiple-carousel__arrow--right{
+    right: calc(4% + -10px);
+  }
+}

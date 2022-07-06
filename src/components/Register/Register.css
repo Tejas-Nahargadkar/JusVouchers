@@ -1,0 +1,91 @@
+.Register-Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SingUp {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .singup-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .GF-signup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .GF-signup span {
+    width: 53%;
+    border: 1px solid rgb(121, 113, 113);
+  }
+  .GF-signup p {
+    border: 1px solid #f9802d;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+  }
+  .Sing-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 10px;
+  }
+  .Sing-form input {
+    width: 80%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: #f9802d 1px solid;
+  }
+  .Sing-form textarea {
+    width: 80%;
+    border-radius: 10px;
+    border: #f9802d 1px solid;
+    padding: 0.8rem;
+  }
+  .Sing-form label::after {
+    content: "*";
+    margin-right: 4px;
+    color: red;
+  }
+  .Submit-singup {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .Submit-singup input {
+    background: #f9802d;
+    width: 40%;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .SignUp-Image {
+    width: 50%;
+  }
+  .SignUp-Image img {
+    width: 90%;
+  }
+  .Submit-btn{
+    width: 40%;
+    background: #f9802d;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+  }

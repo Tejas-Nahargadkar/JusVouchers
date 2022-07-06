@@ -1,0 +1,56 @@
+.Carousel04-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Carousal04 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(261.16deg, #ffb70a 19.91%, #fa7d29 186.71%);
+  padding: 2rem;
+  border-radius: 10px;
+}
+.Carousal04-Slides {
+  width: 80%;
+  margin-left: 1rem;
+}
+.Carousal04-Slides img {
+  width: 100%;
+}
+.Carousal04-Header {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Carousal04-Header span {
+  width: 40%;
+  height: 8px;
+  background-color: #ffb70a;
+  margin-bottom: 1rem;
+}
+.Carousal04 .react-multiple-carousel__arrow--left {
+  left: calc(4% + -60px);
+}
+.Carousal04 .react-multiple-carousel__arrow {
+  border-radius: 5px;
+  min-width: 45px;
+  min-height: 80px;
+  background-color: #f9751b;
+}
+.Carousal04 .react-multiple-carousel__arrow--right {
+  right: calc(4% + -28px);
+}
+@media only screen and (max-width: 450px) {
+  .Carousal04-Header h1 {
+    font-size: 1.3rem;
+    margin: 0%;
+  }
+  .Carousal04-Header h2 {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+}

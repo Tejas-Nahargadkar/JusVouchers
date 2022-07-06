@@ -1,0 +1,58 @@
+.CommentTable-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+.CommentTable-Container h2 {
+  color: #f9751b;
+  font-size: 2rem;
+}
+.CommentTable-Container .Comments-Table {
+  box-shadow: 0 4px 28px 0 rgba(31, 38, 135, 0.3);
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 10% 25% 25% 20% 20%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  border-radius: 10px;
+}
+.CommentTable-Container .Comments-Table .Comments-Table-orange {
+  width: 100%;
+  display: flex;
+  color: #f9751b;
+  justify-content: center;
+  align-items: center;
+}
+.CommentTable-Container .Comments-Table .Comments-Table-orange h4 {
+  padding: 0.5rem;
+}
+.CommentTable-Container .Comments-Table .Comments-Table-white {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+.Comments-Table-white-button-row {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  gap: 0.5rem;
+}
+.Comments-Table-white-button-row button {
+  background-color: transparent;
+  color: #f9751b;
+  border: none;
+  cursor: pointer;
+}
+.CommentTable-Container p{
+  width: 80%;
+  word-wrap: break-word;
+  margin-left: 1rem;
+}

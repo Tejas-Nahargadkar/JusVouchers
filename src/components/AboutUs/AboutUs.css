@@ -1,0 +1,296 @@
+.AboutUs-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
+.AboutUs-Image {
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.AboutUs-Image img {
+  width: 40%;
+}
+.AboutUs-Image h1 {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  color: white;
+}
+.AboutUs-Banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.AboutUs-Banner-Header {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Upperspan {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.Upperspan span {
+  width: 25%;
+  height: 8px;
+  background-color: #fa7d29;
+}
+.Dot-Arrow-points-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.Dot-arrow-col {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #ffe29e;
+}
+.Dot-arrow-row {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-left: 5px solid #fa7d29;
+}
+.Dot-arrow-row img {
+  position: relative;
+  right: 1.3%;
+}
+.Dot-arrow-row p {
+  width: 95%;
+  font-size: 0.9rem;
+}
+.vision-mission-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.Vision-mission-Card {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Vision-mission-Card-Image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Vision-mission-card-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe29e;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.Triangle-span {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Triangle-span span {
+  width: 10%;
+  height: 50px;
+  background-color: #ffe29e;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.Saving-tips-Container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Saving-tips-Header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Saving-tips-Row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.Saving-tips-Img {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Saving-tips-Img span {
+  width: 100%;
+  height: 90px;
+  border: 4px solid #fa7d29;
+  border-radius: 100rem;
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #555;
+}
+.Saving-tips-arrow {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Saving-tips-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe29e;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.WhyChooseUs-Container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.WhyChooseUs-Header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.WhyChooseUs-Row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.Block-Content {
+  width: 50%;
+  background-color: #ffe29e;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.Rectangle-Content-Col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Rectangle-Content-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.Rectangle-Content-row img {
+  width: 15%;
+}
+.Rectangle-Content-row p {
+  width: 70%;
+}
+@media only screen and (max-width: 450px) {
+  .AboutUs-Container{
+    margin-bottom: 0%;
+  }
+  .AboutUs-Banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .AboutUs-Image {
+    display: none;
+  }
+  .Dot-arrow-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .AboutUs-Banner-Header {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .AboutUs-Banner-Header h1,
+  h2 {
+    margin: 0%;
+    text-align: center;
+  }
+  .vision-mission-container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Vision-mission-Card {
+    width: 100%;
+  }
+  .Saving-tips-Row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Saving-tips-arrow img {
+    transform: rotate(90deg);
+  }
+  .Saving-tips-content p{
+    font-size: 0.9rem;
+  }
+  .WhyChooseUs-Row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Block-Content {
+    width: 90%;
+  }
+  .Block-Content p{
+    font-size: 0.9rem;
+  }
+  .Rectangle-Content-Col {
+    width: 100%;
+  }
+  .Rectangle-Content-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Rectangle-Content-row p {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  .Rectangle-Content-row img {
+    width: 40%;
+  }
+}

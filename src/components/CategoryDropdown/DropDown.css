@@ -1,0 +1,66 @@
+.DropDown-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trigger {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Trigger-dropdown {
+  width: 35%;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-radius: 10px;
+  background-color: #f9751b;
+  cursor: pointer;
+  color: white;
+}
+.Dropdown-section {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  border-radius: 10px;
+  box-shadow: -2px 1px 5px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: -2px 1px 5px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: -2px 1px 5px 0px rgba(0, 0, 0, 0.16);
+}
+.Drop-down-btn {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Active-Category-Option {
+  background-color: #f9751b;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.Close-btn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+}
+@media only screen and (max-width: 450px) {
+  .Trigger-dropdown {
+    width: 100%;
+  }
+  .Dropdown-section {
+    width: 100%;
+  }
+}

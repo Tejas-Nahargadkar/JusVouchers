@@ -1,0 +1,56 @@
+.CategoryWisePage-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+  gap: 1rem;
+}
+.Category-wise-header {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+.Category-wise-header h1 {
+  margin: 0%;
+}
+.Category-wise-header span {
+  width: 40%;
+  height: 8px;
+  background-color: #ffb70a;
+}
+.Category-banner {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Category-banner img {
+  width: 100%;
+  border-radius: 10px;
+}
+.Image-Grid {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-row-gap: 1rem;
+  grid-column-gap: 1rem;
+}
+.Image-Card {
+  width: 100%;
+}
+.Image-Card img {
+  width: 100%;
+}
+@media only screen and (max-width: 450px) {
+  .Image-Grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+    justify-content: center;
+  }
+}

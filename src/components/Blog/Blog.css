@@ -1,0 +1,335 @@
+.Single-Blog-Page-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.5rem;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+.Single-Blog-Page-Container p {
+  margin: 0%;
+  margin-top: 0.5rem;
+}
+.Single-Blog-Page-Header {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.Single-Blog-Page-Header h1 {
+  color: #f9751b;
+}
+.Single-Blog-Page-Header span {
+  width: 70%;
+  height: 2px;
+  background-color: #f9751b;
+}
+.Container-Blog-Page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.BlogPost-Image {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.BlogPost-Image img {
+  width: 90%;
+  object-fit: cover;
+  aspect-ratio: 2/1;
+}
+.Design-row-Header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.BlogPost-Content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.BlogPost-AdminName-PostingTime-Date-col {
+  width: 81%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background: #ffb709;
+}
+.BlogPost-PostingTime-Date-row {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.BlogPost-AdminName-row {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.BlogPost-Title {
+  width: 81%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.BlogPost-Title h1 {
+  font-family: "Playfair Display", serif;
+}
+.BlogPost-Title span {
+  width: 80%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 0.5rem;
+}
+.Description {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe29e;
+  padding: 0.5rem;
+}
+.Blog-Tagline {
+  width: 85%;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Blog-Tagline span {
+  width: 20%;
+  height: 1px;
+  background-color: #f9751b;
+  transform: rotate(90deg);
+}
+.Tags {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.Blog-Social-Media-Links {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.Blog-Social-Media-Links a {
+  color: black;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Show-Comments-Container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+.BlogPost-Content-Comment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+.Comment-Btn {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem;
+  justify-content: center;
+  font-size: 1.4rem;
+  gap: 1rem;
+  border: 1px solid #f9751b;
+  border-radius: 5px;
+  color: white;
+  background-color: #f9751b;
+  cursor: pointer;
+}
+.Comment-Col {
+  width: 93%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+.Commenting-Form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.Commenting-Form-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.Commenting-Form-header span {
+  width: 70%;
+  height: 1px;
+  background-color: black;
+}
+.Commenting-Form-Row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.Commenting-Form-Row textarea {
+  width: 93%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.Commenting-Form-Row input {
+  width: 30%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 0.8px solid black;
+}
+.Commenting-Form-PostButton {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Post-Btn {
+  width: 80%;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  background-color: #f9751b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 450px) {
+  .Single-Blog-Page-Header {
+    width: 100%;
+  }
+  .Container-Blog-Page {
+    width: 100%;
+  }
+  .BlogPost-Image {
+    width: 100%;
+  }
+  .BlogPost-Image img {
+    width: 100%;
+  }
+  .BlogPost-AdminName-PostingTime-Date-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .BlogPost-PostingTime-Date-row {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.7rem;
+  }
+  .BlogPost-AdminName-row {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.7rem;
+  }
+  .Blog-Social-Media-Links {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.7rem;
+  }
+  .BlogPost-Title{
+    width: 95%;
+  }
+  .Description{
+    width: 95%;
+  }
+  .Description p {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+  .BlogPost-Title h1 {
+    margin: 0%;
+  }
+  .Blog-Tagline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Blog-Tagline p {
+    text-align: justify;
+  }
+  .Blog-Tagline span {
+    width: 90%;
+    height: 1.5px;
+    transform: none;
+  }
+  .Show-Comments-Container{
+    width: 95%;
+  }
+  .Commenting-Form-header{
+    gap: 0.2rem;
+  }
+  .Comment-Btn {
+    width: 50%;
+  }
+  .Commenting-Form-header span {
+    width: 55%;
+  }
+  .Commenting-Form-Row input {
+    width: 35%;
+    padding: 0.7rem;
+  }
+  .Commenting-Form-Row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .Commenting-Form-PostButton {
+    width: 100%;
+  }
+  .Post-Btn {
+    width: 100%;
+  }
+  .Single-Blog-Page-Container {
+    margin-top: 5rem;
+  }
+}

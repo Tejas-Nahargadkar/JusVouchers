@@ -1,0 +1,234 @@
+.DigitalMarketingPage-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+  font-family: "Poppins", sans-serif;
+  gap: 1rem;
+}
+.DigitalMarketingPage-Header {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.DigitalMarketingPage-Header h1 {
+  color: #ffb70a;
+}
+.DigitalMarketingPage-Header span {
+  width: 40%;
+  height: 2px;
+  background-color: #ffb70a;
+}
+.DigitalMarketing-Banner {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Marketing-Content {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffe29e;
+  border-radius: 20px;
+}
+.Marketing-Content p {
+  width: 90%;
+  text-align: justify;
+}
+.Marketing-image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Marketing-image img {
+  width: 50%;
+}
+.DigitalMarketing-Row {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffe29e;
+  border-radius: 10px;
+  gap: 1rem;
+}
+.DigitalMarketing-Row-Image {
+  width: 40%;
+}
+.DigitalMarketing-Row-Image img {
+  width: 100%;
+  object-fit: cover;
+}
+.DigitalMarketing-row-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe29e;
+  border-radius: 10px;
+}
+.content-row {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  border-left: 4px solid #fa7d29;
+}
+.content-row img {
+  position: relative;
+  right: 1.6%;
+}
+.DigitalMarketing-Content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe29e;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.DigitalMarketing-Packages {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.DigitalMarketing-Packages-Row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.Modal-Image {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Modal-Image img {
+  width: 80%;
+}
+.Modal-Image img:hover {
+  background-color: rgba(0, 0, 0, 0.402);
+}
+.Modal-Image .__react_modal_image__medium_img {
+  width: 25%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.Download-Brochure {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.Download-Brochure p {
+  text-decoration: underline;
+}
+.Download-Brochure a {
+  width: 10%;
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #fa7d29;
+  color: white;
+  gap: 1rem;
+  text-decoration: none;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 450px) {
+  .DigitalMarketingPage-Header h1 {
+    color: #ffb70a;
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .DigitalMarketing-Banner {
+    width: 95%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .Marketing-Content {
+    width: 100%;
+    height: 100%;
+  }
+  .Marketing-Content p {
+    width: 95%;
+    font-size: 0.8rem;
+  }
+  .Marketing-image {
+    width: 100%;
+  }
+  .Marketing-image img {
+    width: 100%;
+  }
+  .Download-Brochure {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Download-Brochure a {
+    width: 50%;
+  }
+  .DigitalMarketing-Row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .DigitalMarketing-Row-Image {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .DigitalMarketing-Row-Image img {
+    width: 90%;
+  }
+  .DigitalMarketing-row-content {
+    width: 90%;
+  }
+  .Marketing-Row-Header h1 {
+    font-size: 1.5rem;
+  }
+  .DigitalMarketing-Packages-Row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Modal-Image {
+    width: 100%;
+  }
+  .Modal-Image img {
+    width: 100%;
+  }
+  .Modal-Image .__react_modal_image__medium_img {
+    width: 80%;
+  }
+  .DigitalMarketing-Content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .DigitalMarketing-Content p {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+}

@@ -1,0 +1,84 @@
+.AddBlog-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.AddBlog-Header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AddBlog-Form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.AddBlog-Form-Col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.AddBlog-Form-Col input {
+  width: 90%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: 1px solid #f9802d;
+}
+.Post-Reset {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.Post-btn {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9802d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.Reset-btn {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9802d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.AddBlog-Form-Col .ck.ck-editor {
+  width: 93%;
+}
+.AddBlog-Form-Col h5 {
+  margin: 0%;
+}
+.AddBlog-Form-UploadImage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.Manage-Blog{
+  width: 100%;
+}

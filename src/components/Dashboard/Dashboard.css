@@ -1,0 +1,389 @@
+.Dashboard-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+  font-family: "Poppins", sans-serif;
+  color: #555;
+}
+.Dashboard-Header {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.Dashboard-Header span {
+  width: 35%;
+  height: 1px;
+  background-color: black;
+}
+.Dashboard-Row {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+.Dashboard-SideBar {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.DeskTop-Dashboard-SideBar-Rows-Container {
+  width: 70%;
+  height: 80vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.DeskTop-Dashboard-SideBar-Rows-Container::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.DeskTop-Dashboard-SideBar-Rows-Container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.DeskTop-Dashboard-SideBar-Rows-Container::-webkit-scrollbar-thumb {
+  background: rgb(150, 150, 150);
+  border-radius: 10px;
+}
+.Profile-Picture-Section {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+}
+.Profile-Picture-Img {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.Profile-Picture-Img img {
+  width: 30%;
+  border-radius: 50px;
+}
+.LogOutButton {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+.LogOutButton:hover {
+  color: orange;
+}
+.DeskTop-Dashboard-SideBar-Row {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  padding: 1rem;
+}
+.DeskTop-Dashboard-SideBar-Row h5 {
+  margin: 0%;
+}
+.DeskTop-Dashboard-SideBar-Row:hover {
+  color: orange;
+}
+.Show-Profile-Container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.UploadImage {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.Carousel-MasterTable {
+  width: 100%;
+}
+.upload-btn {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.7rem;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #f9751b;
+  color: white;
+  cursor: pointer;
+}
+.Dashobard-Address {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Dashobard-Address form {
+  width: 100%;
+}
+.Form-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.form-col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-col input {
+  width: 100%;
+  padding: 1rem;
+}
+.Drop-Down-btn {
+  background-color: rgba(85, 85, 85, 0);
+  border: none;
+  cursor: pointer;
+}
+.Mobile-Profile-Picture-Section {
+  display: none;
+}
+.AddAdmin {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Add-Blogs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Carousel-Dropdown {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Carousel-Dropdown-trigger {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Select-Carousel-btn {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem;
+  border: none;
+  background-color: #f9751b;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+.Carousel-Dropdown-Option {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+  border-radius: 10px;
+  box-shadow: -2px 1px 5px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: -2px 1px 5px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: -2px 1px 5px 0px rgba(0, 0, 0, 0.16);
+}
+.Option {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.Active-option {
+  background-color: #f9751b;
+  color: white;
+  border-radius: 8px;
+}
+.Close-option {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.CommentMasterTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Category-DropDown {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CustomerMasterTable {
+  width: 100%;
+}
+.Active-SideBar-Row {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #f9751b;
+}
+.Add-Category {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 450px) {
+  .DeskTop-Dashboard-SideBar-Rows-Container {
+    display: none;
+  }
+  .UploadImage {
+    width: 100%;
+  }
+  .Profile-Picture-Section {
+    display: none;
+  }
+  .Mobile-Profile-Picture-Section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Mobile-Profile-Picture-Img {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Mobile-Profile-Picture-Img img {
+    width: 100%;
+    border-radius: 90%;
+  }
+  .Mobile-Profile-Picture-Name-col {
+    width: 55%;
+  }
+  .Drop-Down {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Drop-Down-btn {
+    width: 100%;
+  }
+  .Dashboard-Row {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .Dashboard-SideBar {
+    width: 100%;
+    height: 100%;
+  }
+  .Mobile-Dashboard-SideBar-Rows-Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Mobile-Dashboard-SideBar-Row {
+    width: 73%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Show-Profile-Container {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .Dashboard-SideBar-close {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .Dashboard-SideBar-Close {
+    width: 10%;
+    background-color: rgba(85, 85, 85, 0);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .upload-btn {
+    width: 50%;
+  }
+  .Dashboard-Header {
+    width: 95%;
+  }
+  .Dashboard-Header h1 {
+    font-size: 1.5rem;
+  }
+  .Dashboard-Header span {
+    width: 20%;
+  }
+  .Carousel-Dropdown {
+    width: 100%;
+  }
+  .Select-Carousel-btn {
+    width: 100%;
+  }
+  .Carousel-Dropdown-Option {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .Dashboard-Header {
+    gap: 0.5rem;
+  }
+  .Mobile-Profile-Picture-Name-col {
+    width: 70%;
+  }
+  .upload-btn {
+    width: 70%;
+  }
+}

@@ -1,0 +1,70 @@
+.Icon-Bar {
+  display: inline-block;
+  position: fixed;
+  top: 70%;
+  left: 98%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 30;
+}
+
+/* Icons */
+.Icon-Bar svg{
+  text-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+.Icon-Bar a {
+
+
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 28px;
+  padding-top: 8px;
+  margin:4px 5px;
+  
+}
+.Facebook{
+  background-color: #4267B2;
+  color: white;
+}
+.Instagram{
+ background:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
+  color: white;
+}
+.FeedBack{
+  background-color: #0c70ab;
+  color: white;
+}
+.Twitter{
+  color: #1D9BF0;
+}  
+.LinkedIn{
+  background-color: #0A66C2;
+  color: white;
+} 
+
+@media only screen and (max-width: 600px) {
+  .Icon-Bar {
+    display: none;
+    top: 75%;
+    left: 94%;
+  }
+
+}
+@media (orientation: landscape) and (max-width: 600px)  {
+  .Icon-Bar {
+    top: 65%;
+    left: 96%;
+  }
+}
+@media (orientation: landscape) and (max-width: 450px){
+  .Icon-Bar {
+    top: 75%;
+    left: 94%;
+  }
+}

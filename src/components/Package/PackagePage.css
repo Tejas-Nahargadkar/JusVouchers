@@ -1,0 +1,84 @@
+.PackagePage-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+  font-family: "Poppins", sans-serif;
+  color: #555;
+}
+.PackagePage-Header {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.PackagePage-Header span {
+  width: 35%;
+  height: 1px;
+  background-color: black;
+}
+.Package-Row {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.Package-Carousel {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.package-Row-Grid {
+  column-count: 4;
+  column-width: 200px;
+  column-gap: 5px;
+  width: 40%;
+  margin: auto;
+}
+.Grid-Col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+.Grid-Col img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.Grid-Col .__react_modal_image__medium_img {
+  width: 70%;
+  height: 70%;
+}
+.Grid-Col .__react_modal_image__modal_container {
+  overflow-y: scroll;
+}
+@media only screen and (max-width: 450px){
+  .Package-Row{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Package-Carousel{
+    width: 95%;
+  }
+  .package-Row-Grid{
+    width: 90%;
+  }
+  .PackagePage-Header{
+    width: 100%;
+    gap: 0.5rem;
+  }
+  .PackagePage-Header span{
+    width: 15%;
+  }
+}

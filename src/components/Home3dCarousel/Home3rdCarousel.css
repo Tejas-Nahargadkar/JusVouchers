@@ -1,0 +1,40 @@
+.Home3rdCarousel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Carousal3d-Header {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Carousal3d-Header span{
+    width: 40%;
+    height: 8px;
+    background-color: #FFB70A;
+    margin-bottom: 2rem;
+}
+.Carousal-Slides {
+  width: 40%;
+}
+@media only screen and (max-width: 450px){
+  .Carousal-Slides{
+    width: 100%;
+  }
+  .Carousal3d-Header{
+    width: 90%;
+    gap: 0.5rem;
+  }
+  .Carousal3d-Header h1,h2{
+    margin: 0%;
+  }
+  .Carousal3d-Header h1{
+    font-size: 1.3rem;
+  }
+  .Carousal3d-Header h2{
+    font-size: 0.9rem;
+    text-align: left;
+  }
+}

@@ -1,0 +1,77 @@
+.ManageBlog-Table-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+.ManageBlog-Table-container h2 {
+  color: #f9751b;
+  font-size: 2rem;
+}
+.ManageBlog-Table-container .ManageBlog-Table {
+  box-shadow: 0 4px 28px 0 rgba(31, 38, 135, 0.3);
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 10% 25% 25% 20%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  border-radius: 10px;
+}
+.ManageBlog-Table-container .Testimonial-Table .ManageBlog-Table-orange {
+  width: 100%;
+  display: flex;
+  color: #f9751b;
+  justify-content: center;
+  align-items: center;
+}
+.ManageBlog-Table-container.Testimonial-Table .ManageBlog-Table-orange h4 {
+  padding: 0.5rem;
+}
+.ManageBlog-Table-container.Testimonial-Table .Testimonial-Table-white {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+.ManageBlog-Table-white-button-row {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  gap: 0.5rem;
+}
+.ManageBlog-Table-white-button-row button {
+  background-color: transparent;
+  color: #f9751b;
+  border: none;
+  cursor: pointer;
+}
+.ManageBlog-Table-container p {
+  width: 80%;
+  word-wrap: break-word;
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 450px) {
+  .ManageBlog-Table-container .ManageBlog-Table {
+    box-shadow: 0 4px 28px 0 rgb(31 38 135 / 30%);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 30% 30% 20%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .ManageBlog-Table-orange h4 {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .ManageBlog-Table-container p{
+    font-size: 0.7rem;
+  }
+}

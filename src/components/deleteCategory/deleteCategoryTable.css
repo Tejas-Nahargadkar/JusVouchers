@@ -1,0 +1,76 @@
+.DeleteCategoryTable-Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  .DeleteCategoryTable-Container h2 {
+    color: #f9751b;
+    font-size: 2rem;
+  }
+  .DeleteCategoryTable-Container  .DeleteCategoryTable-Table {
+    box-shadow: 0 4px 28px 0 rgba(31, 38, 135, 0.3);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 30% 30% 20%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .DeleteCategoryTable-Container  .DeleteCategoryTable-Table  .DeleteCategoryTable-Table-orange {
+    width: 100%;
+    display: flex;
+    color: #f9751b;
+    justify-content: center;
+    align-items: center;
+  }
+  .DeleteCategoryTable-Container  .DeleteCategoryTable-Table  .DeleteCategoryTable-Table-orange h4 {
+    padding: 0.5rem;
+  }
+  .DeleteCategoryTable-Container  .DeleteCategoryTable-Table  .DeleteCategoryTable-Table-white {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+  }
+   .DeleteCategoryTable-Table-white-button-row {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    gap: 0.5rem;
+  }
+   .DeleteCategoryTable-Table-white-button-row button {
+    background-color: transparent;
+    color: #f9751b;
+    border: none;
+    cursor: pointer;
+  }
+  .DeleteCategoryTable-Container p{
+    width: 80%;
+    word-wrap: break-word;
+    margin-left: 1rem;
+  }
+  @media only screen and (max-width: 600px){
+    .DeleteCategoryTable-Container  .DeleteCategoryTable-Table{
+      box-shadow: 0 4px 28px 0 rgb(31 38 135 / 30%);
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 20% 30% 30% 20%;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      width: 100%;
+      border-radius: 10px;
+    }
+    .DeleteCategoryTable-Container  .DeleteCategoryTable-Table  .DeleteCategoryTable-Table-orange h4{
+      font-size: 0.8rem;
+    }
+    .DeleteCategoryTable-Container p{
+      font-size: 0.8rem;
+    }
+  }

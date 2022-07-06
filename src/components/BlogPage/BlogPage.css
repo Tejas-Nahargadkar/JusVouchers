@@ -1,0 +1,225 @@
+.BlogPage-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+  font-family: "Poppins", sans-serif;
+  gap: 2rem;
+  text-align: justify;
+}
+.BlogPage-Header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.BlogPage-Header h1 {
+  font-size: 2.5rem;
+  color: #555;
+}
+.BlogPage-Header span {
+  width: 38%;
+  height: 1px;
+  border-radius: 10px;
+  background-color: #555;
+}
+.Main-Blog-Container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Main-Blog-Row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.Blog-Image {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Blog-Image img {
+  width: 100%;
+  border-radius: 10px;
+  aspect-ratio: 2/1;
+}
+.Main-Blog-Content-Container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.Date-Row p {
+  color: #858585;
+}
+.Main-Blog-Name {
+  width: 100%;
+}
+.Main-Blog-Name h1 {
+  margin: 0%;
+}
+.Main-Blog-Content {
+  width: 100%;
+}
+.Main-Blog-Content p {
+  color: #555;
+  text-align: justify;
+}
+.Main-Blog-ReadMore {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ReadMore-BTN {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #f9751b;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Display-Blogs-Grid {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 28% 28% 28%;
+  grid-column-gap: 5rem;
+  grid-row-gap: 2rem;
+  align-items: center;
+  margin-top: 5rem;
+}
+.Display-Blogs-Card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Display-Blogs-Card-image {
+  width: 100%;
+}
+
+.Display-Blogs-Card-image img {
+  width: 100%;
+  border-radius: 10px;
+  opacity: 1;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  aspect-ratio: 4/3;
+}
+.Display-Blogs-Card-image img:hover {
+  opacity: 0.5;
+}
+.Display-Blogs-Card-Content-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.Display-Blogs-Card-Content-Date-Row p {
+  margin: 0%;
+  color: #555;
+}
+.Display-Blogs-Card-Content-Name-Row h2 {
+  margin: 0%;
+}
+.Display-Blogs-Card-Content {
+  width: 100%;
+}
+.Display-Blogs-Card-Content p {
+  margin: 0%;
+  color: #555;
+  text-align: justify;
+}
+@media only screen and (max-width: 450px) {
+  .BlogPage-Container {
+    gap: 1rem;
+    margin-top: 6rem;
+  }
+  .Main-Blog-Row {
+    gap: 1rem;
+  }
+  .BlogPage-Header {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .BlogPage-Header h1 {
+    font-size: 1.5rem;
+  }
+  .BlogPage-Header span{
+    width: 30%;
+  }
+  .Main-Blog-Row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Main-Blog-Container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Blog-Image {
+    width: 100%;
+  }
+  .Main-Blog-Content-Container {
+    width: 100%;
+  }
+  .Main-Blog-Name {
+    width: 100%;
+  }
+  .Main-Blog-Content p {
+    text-align: justify;
+    margin: 0%;
+    font-size: 0.9rem;
+  }
+  .ReadMore-BTN {
+    width: 35%;
+  }
+  .Display-Blogs-Grid {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 1rem;
+  }
+  .Date-Row p {
+    margin: 0%;
+  }
+  .Display-Blogs-Card-Content p{
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .BlogPage-Header {
+    gap: 0.5rem;
+  }
+  .ReadMore-BTN {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .ReadMore-BTN {
+    width: 45%;
+  }
+  .BlogPage-Header span {
+    width: 25%;
+  }
+}

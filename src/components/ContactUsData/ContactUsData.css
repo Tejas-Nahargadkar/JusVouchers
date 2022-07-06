@@ -1,0 +1,70 @@
+.ContactUsData-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+.ContactUsData-Container h2 {
+  color: #f9751b;
+  font-size: 2rem;
+}
+.ContactUsData-Container .ContactUsData-Table {
+  box-shadow: 0 4px 28px 0 rgba(31, 38, 135, 0.3);
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  border-radius: 10px;
+}
+.ContactUsData-Container .ContactUsData-Table .ContactUsData-Table-orange {
+  width: 100%;
+  display: flex;
+  color: #f9751b;
+  justify-content: center;
+  align-items: center;
+}
+.ContactUsData-Container .ContactUsData-Table .ContactUsData-Table-orange h4 {
+  padding: 0.5rem;
+}
+.ContactUsData-Container .ContactUsData-Table .ContactUsData-Table-white {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+.ContactUsData-Table-white-button-row {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  gap: 0.5rem;
+}
+.ContactUsData-Table-white-button-row button {
+  background-color: transparent;
+  color: #f9751b;
+  border: none;
+  cursor: pointer;
+}
+.ContactUsData-Container p {
+  width: 80%;
+  word-wrap: break-word;
+  margin-left: 1rem;
+}
+.Customer-info-delete-btn {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Customer-info-delete-btn svg {
+  color: #f9751b;
+  cursor: pointer;
+}

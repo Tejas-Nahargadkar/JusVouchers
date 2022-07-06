@@ -1,0 +1,18 @@
+.HomeMobileCarousel-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Mobile-Carousel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Mobile-Slides{
+    width: 100%;
+}
+.Mobile-Slides img{
+    width: 100%;
+}

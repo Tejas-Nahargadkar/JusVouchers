@@ -1,0 +1,35 @@
+.AddCategory-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AddCategory-Input-Col {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.AddCategory-Input-Col input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.AddCategory-Submit {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AddCategory-Submit-btn {
+  width: 40%;
+  padding: 0.5rem;
+  background-color: #fa7d29;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+.Manage-Category {
+  width: 100%;
+}

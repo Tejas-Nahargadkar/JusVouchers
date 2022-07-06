@@ -1,0 +1,58 @@
+.HomePageContent-Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.HomePageContent-Header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Row-bg{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFE29E;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.Row-trans{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomePageContent-ReadMore-btn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomePageContent-ReadMore-btn a{
+    width: 10%;
+    padding: 0.8rem;
+    background-color: #F9751B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 450px){
+    .HomePageContent-ReadMore-btn a{
+        width: 40%;
+    }
+    .Row-bg{
+        font-size: 0.9rem;
+    }
+    .HomePageContent-Header h1{
+        margin: 0%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
